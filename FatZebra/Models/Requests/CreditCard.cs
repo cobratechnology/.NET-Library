@@ -1,9 +1,9 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace FatZebra.Requests
 {
-	public class CreditCard : IRequest
+    public class CreditCard : IRequest
 	{
 		[JsonProperty("card_holder")]
 		public string CardHolder { get; set; }

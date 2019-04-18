@@ -1,15 +1,13 @@
-﻿using System;
-using System.Globalization;
-using Newtonsoft.Json.Utilities;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using Newtonsoft.Json;
+using System;
 
 namespace FatZebra.JsonConverters
 {
-	/// <summary>
-	/// Converts a <see cref="DateTime"/> to mm/yyyy format.
-	/// </summary>
-	public class ExpiryDateConverter : IsoDateTimeConverter
+    /// <summary>
+    /// Converts a <see cref="DateTime"/> to mm/yyyy format.
+    /// </summary>
+    public class ExpiryDateConverter : IsoDateTimeConverter
 	{
 		/// <summary>
 		/// Writes the JSON representation of the object.

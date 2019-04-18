@@ -1,10 +1,9 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 namespace FatZebra
 {
-	public class ShippingAddress
+    public class ShippingAddress
 	{
 		/// <summary>
 		/// The shipping address first name (usually the customers first name).

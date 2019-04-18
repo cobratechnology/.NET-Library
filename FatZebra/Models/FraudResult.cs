@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace FatZebra
+﻿namespace FatZebra
 {
-	public enum FraudResult
+    public enum FraudResult
 	{
 		Unknown,
 		Accept,

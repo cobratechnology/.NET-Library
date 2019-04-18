@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace FatZebra
 {
-	public abstract class DirectEntry : IRecord
+    public abstract class DirectEntry : IRecord
 	{
 		/// <summary>
 		/// The record ID

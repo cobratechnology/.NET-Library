@@ -1,9 +1,8 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace FatZebra
 {
-	public class Recipient
+    public class Recipient
 	{
 		/// <summary>
 		/// The recipients title/saultation (e.g. Mr, Mrs, Miss, Dr)

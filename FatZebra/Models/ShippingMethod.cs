@@ -1,9 +1,6 @@
-﻿using System;
-using Newtonsoft.Json;
-
-namespace FatZebra
+﻿namespace FatZebra
 {
-	public enum ShippingMethod
+    public enum ShippingMethod
 	{
 		LowCost,
 		SameDay,

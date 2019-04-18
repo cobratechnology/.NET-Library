@@ -1,9 +1,8 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace FatZebra.Requests
 {
-	public class Refund : IRequest
+    public class Refund : IRequest
 	{
 		[JsonProperty("transaction_id")]
 		public string TransactionID { get; set; }

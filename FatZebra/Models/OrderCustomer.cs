@@ -1,9 +1,9 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace FatZebra
 {
-	public class OrderCustomer
+    public class OrderCustomer
 	{
 		/// <summary>
 		/// The customers record ID in the merchants system

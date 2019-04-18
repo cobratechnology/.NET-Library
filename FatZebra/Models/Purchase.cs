@@ -1,9 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 using System.ComponentModel;
 
 namespace FatZebra
@@ -225,7 +222,8 @@ namespace FatZebra
         /// <returns>Response</returns>
         public static Response<Purchase> Create(int amount, string token, string cvv, string reference, string customer_ip, string currency, FraudCheck fraud_details, Dictionary<String, Object> extra)
         {
-            var req = new Requests.Purchase {
+            var req = new Requests.Purchase
+{
                 Amount = amount,
                 Reference = reference,
                 CustomerIP = customer_ip,

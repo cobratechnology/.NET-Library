@@ -1,9 +1,8 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace FatZebra
 {
-	public class OrderItem
+    public class OrderItem
 	{
 		/// <summary>
 		/// The items product code

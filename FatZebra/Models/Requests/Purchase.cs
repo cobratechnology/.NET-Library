@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
 
 namespace FatZebra.Requests
 {
-	public class Purchase : IRequest
+    public class Purchase : IRequest
 	{
 		[JsonProperty("amount")]
 		public int Amount { get; set; }

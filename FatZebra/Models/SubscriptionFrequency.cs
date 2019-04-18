@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace FatZebra
+﻿namespace FatZebra
 {
-	public enum SubscriptionFrequency
+    public enum SubscriptionFrequency
 	{
 		Daily,
 		Weekly,

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace FatZebra
+﻿namespace FatZebra
 {
-	public class PurchaseRequest
+    public class PurchaseRequest
 	{
 		public PurchaseRequest ()
 		{

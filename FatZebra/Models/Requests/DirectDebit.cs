@@ -1,9 +1,9 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace FatZebra.Requests
 {
-	public class DirectDebit : IRequest
+    public class DirectDebit : IRequest
 	{
 		/// <summary>
 		/// The customers account name

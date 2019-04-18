@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json;
 
 namespace FatZebra
 {
-	public class DirectCredit : DirectEntry
+    public class DirectCredit : DirectEntry
 	{
 		public static Response<DirectCredit> Create(string bsb, string account_number, string account_name, decimal amount, string reference, string description, DateTime date)
 		{

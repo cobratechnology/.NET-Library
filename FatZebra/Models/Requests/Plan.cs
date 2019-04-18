@@ -1,9 +1,8 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace FatZebra.Requests
 {
-	public class Plan : IRequest
+    public class Plan : IRequest
 	{
 		[JsonProperty("name")]
 		public string Name { get; set; }

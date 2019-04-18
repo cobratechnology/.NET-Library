@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
 
 namespace FatZebra
 {
-	public class FraudCheck
+    public class FraudCheck
 	{
 		/// <summary>
 		/// Order items associated with the transaction

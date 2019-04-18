@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace FatZebra
+﻿namespace FatZebra
 {
-	public interface IRequest
+    public interface IRequest
 	{
 	}
 }
